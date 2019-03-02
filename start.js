@@ -17,6 +17,6 @@ mongoose.connection
         console.log(`Connection error: ${err.message}`);
     });
 
-const server = app.listen(3001, () => {
+const server = app.listen(80, () => {
         console.log(`Express is running on port ${server.address().port}`);
 });
