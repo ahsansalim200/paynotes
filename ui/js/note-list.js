@@ -12,7 +12,7 @@ $(document).ready(function () {
             noteCount         = 0;
 
         var noteSchema = {
-            user: $('#loggedInUser'),
+            user: $('#loggedInUser').val(),
             note: []
         };
 
