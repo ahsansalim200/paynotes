@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+    <head>
+        <title>Pay Notes</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="favicon.ico">
+        <link href="css/style.css" rel="stylesheet">
+        <meta name="application-name" content="Pay Notes" />
+        <meta name="theme-color" content="#ffffff">
+        <link rel="manifest" href="manifest.json">
+    </head>
+</head>
+<body class="loginpage">
+    <div class="wrapper">
+        <div class="wrapper__inner">
+            <div class="notepad">
+                <h1 class="notepad__heading">Sign in</h1>
+                <form class="notepad__form" method="POST" action="/login">
+                    <label class="notepad__form-error">{{ error }}</label>
+                    <input class="notepad__form-input" name="username" placeholder="Username" id="username" />
+                    <label class="notepad__form-label" for="username">Enter the username</label>
+
+                    <input class="notepad__form-input" name="password" type="password" placeholder="Password" id="password" />
+                    <label class="notepad__form-label" for="password">Enter the password</label>
+                    <button type="submit" class="notepad__clear">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

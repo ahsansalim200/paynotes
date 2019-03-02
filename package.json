@@ -1,0 +1,20 @@
+{
+  "name": "paynotes",
+  "version": "1.0.0",
+  "description": "<img src=\"https://sii.im/playground/notes/notes-ss.png\" alt=\"Notes app\" width='590px'> <img src=\"https://sii.im/playground/notes/notes-pwa.png\" alt=\"Notes app PWA score\" width='610px'>",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon ./start.js"
+  },
+  "author": "Ahsan Salim",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.16",
+    "mustache-express": "^1.2.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
